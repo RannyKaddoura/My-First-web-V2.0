@@ -186,10 +186,61 @@ movie03 {
     color: yellow;
 }
 
+.movie01,.movie02,.movie03,.movie04 {
+    text-align: right;   
+}
+
 img {
-    float: right;
+    filter: grayscale(60%);
+    text-shadow: 2px 2px 4px black, 5px 5px 25px red, 2px 2px 5px lightblue;
+}
+
+padding: 2em 0 0 0 ;
+
+ul , p {
+    padding: 0 3em;
 }
 
     {
     border: red solid 0.5px;
+}
+
+h2 {
+    text-align: center;
+    background-color: darkslategray;
+}
+/* --------------------------------- mediaquery ------------------------------------*/
+
+@media screen and (max-width: 1000px) {
+    .row {
+        display: none;
+    }
+    .rowmini {
+        display: block;
+    }
+    .rowmini img {
+        width: 200px;
+        float: none;
+        padding: 0 5%;
+    }
+    .movie01 , .movie02 , .movie03 , .movie04 {
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+    .row {
+        display: block;
+    }
+    .rowmini {
+        display: none;
+    }
+    .row img {
+        width: 300px;
+    }
+}
+
+.row .col {
+    padding: 0 0 0 100px;
 }

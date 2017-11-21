@@ -122,7 +122,7 @@ ul {
 }
 
 h2 {
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: 400;
     margin: 0 0 0.5em;
 }
@@ -134,7 +134,7 @@ h3 {
 }
 
 p {
-    font-size: 0.875em;
+    font-size: 1em;
 }
 
 p,
@@ -144,13 +144,10 @@ ul {
 
 ul {
     color: #cec5d3;
-    font-size: 0.75em;
+    font-size: 1em;
     list-style-type: none;
     padding: 0;
 
-    li {
-        margin: 0 0 0.8333333333333333em;
-    }
 }
 
 .button {
@@ -178,45 +175,45 @@ sup,
     font-size: 0.6125em;
 }
 
-.fa-2x {
-    color: dimgray;
+.movie01,
+.movie02,
+movie03 {
+    min-height: 200px;
 }
 
-
-.grid-1-5 {
-    background-image: url(../images/zürich03-Copy.JPG);
-    filter: sepia(80%);
-    text-align: left;
+.fa-imdb {
+    color: yellow;
 }
 
-.grid-2-5 {
-    background-image: url(../images/zürich01-Copy.JPG);
-    filter: sepia(80%);
-    text-align: left;
+img {
+    float: right;
 }
 
-.grid-3-5 {
-    background-image: url(../images/zürich02-Copy.JPG);
-    filter: sepia(80%);
-    text-align: left;
+@media screen and (max-width: 750px){
+        .iframe2 {
+        display: none;
+    }
+    
 }
-
-.grid-4-5 {
-    background-image: url(../images/kolnvelo-Copy.JPG);
-    filter: sepia(80%);
-    text-align: left;
+@media screen and (min-width: 750px){
+        .iframe1 {
+        display: none;
+    }
+    
+    
 }
-
-.grid-5-5 {
-    background-image: url(../images/701A7899222-Copy.jpg);
-    filter: sepia(80%);
-    text-align: left;
-    color: black;
-}
-
-.grid-5-5 ul {
-    color: black;
-}
-.parallax {
-    filter: sepia(70%);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+    border: red solid 0.5px;
 }
